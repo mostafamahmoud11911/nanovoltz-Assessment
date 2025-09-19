@@ -126,7 +126,6 @@ export default function BarChartCard() {
                 height: "6px",
                 borderRadius: "2px",
                 backgroundColor: item.color,
-                display: "inline-block",
               }}
             />
             <span style={{ fontSize: "12px", fontWeight: "600", color: "#111827" }}>
