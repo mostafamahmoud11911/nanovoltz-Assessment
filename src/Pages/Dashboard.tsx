@@ -1,5 +1,5 @@
 import Cards from "../Components/Cards/Cards";
-import ChartCarts from "../Components/Charts/ChartCarts";
+import ChartCards from "../Components/Charts/ChartCards";
 import ChartLayout from "../Components/Charts/ChartLayout";
 import Table from "../Components/Table/Table";
 
@@ -10,7 +10,7 @@ export default function Dashboard() {
             <ChartLayout />
             <Cards />
             <Table />
-            <ChartCarts />
+            <ChartCards />
         </>
     )
 }
