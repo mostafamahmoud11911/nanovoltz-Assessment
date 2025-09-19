@@ -37,7 +37,7 @@ const cards = [
 
 export default function Cards() {
     return (
-        <div className="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2  gap-4 p-6 bg-white rounded-2xl">
+        <div className="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-2 grid-cols-1  gap-4 p-6 bg-white rounded-2xl">
             {cards.map((card, i) => (
                 <motion.div
                     key={i}
