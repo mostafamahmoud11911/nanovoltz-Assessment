@@ -6,7 +6,7 @@ import Navbar from "../Navbar/Navbar";
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="h-screen flex flex-col w-full max-w-full bg-[#faefef]">
+    <div className="h-screen flex flex-col bg-[#faefef] overflow-auto">
       <Navbar />
 
       <div className="flex flex-1">

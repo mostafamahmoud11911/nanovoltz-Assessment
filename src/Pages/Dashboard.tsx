@@ -6,11 +6,11 @@ import Table from "../Components/Table/Table";
 
 export default function Dashboard() {
     return (
-        <>
+        <div className="flex flex-col gap-6">
             <ChartLayout />
             <Cards />
             <Table />
             <ChartCards />
-        </>
+        </div>
     )
 }

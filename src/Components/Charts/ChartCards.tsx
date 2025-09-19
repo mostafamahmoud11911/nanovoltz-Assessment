@@ -59,7 +59,7 @@ export default function ChartCards() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut", delay: i * 0.2 }}
-            className="bg-white shadow rounded-2xl p-4 w-[300px] flex flex-col justify-between"
+            className="bg-white shadow rounded-2xl p-4 flex flex-col justify-between"
           >
             <div className="flex items-center justify-between">
               <div className="flex flex-col justify-center">
